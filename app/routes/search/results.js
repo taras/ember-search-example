@@ -7,8 +7,8 @@ var ResultsSearchRoute = Ember.Route.extend({
       }) 
     }); 
   },
-  serialize: function(params) {
-    return {keyword: params}
+  serialize: function(keyword) {
+    return {keyword: keyword}
   }
 
 });
