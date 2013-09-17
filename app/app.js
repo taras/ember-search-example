@@ -1,6 +1,6 @@
 import Resolver from 'resolver';
 
-Ember.LOG_BINDINGS = true
+Ember.LOG_BINDINGS = true;
 
 var App = Ember.Application.create({
   LOG_ACTIVE_GENERATION: true,

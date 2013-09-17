@@ -33,7 +33,8 @@
     "exists",
     "fillIn",
     "click",
-    "find"
+    "find",
+    "_"
   ],
   "node" : false,
   "browser" : false,
