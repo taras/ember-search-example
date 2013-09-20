@@ -3,7 +3,7 @@ var SearchRoute = Ember.Route.extend({
     search: function(keyword) {
       this.transitionTo('search.results', keyword);
     }
-  }
+  }    
 });
 
 export default SearchRoute;

@@ -1,5 +1,6 @@
 var SearchController = Ember.Controller.extend({
-  keyword: ''
+  needs: [ 'search/results' ],
+  keywordBinding: 'controllers.search/results.keyword'
 });
 
 export default SearchController;
